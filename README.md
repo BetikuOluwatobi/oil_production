@@ -1,1 +1,2 @@
-# oil_production
+# Production Forecasting
+Oil Production forecasting is one of the most important problems in the Oil and Gas industry. Accurately estimating the amount of liquid that could be produced by a certain well along its lifetime is very crucial especially from the economical and business side. There are several factors that contribute into it, starting from the well location, geological factors, drilling technologies used by the operator drilling, neighboring wells and their effect on each others.
