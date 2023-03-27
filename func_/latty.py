@@ -33,9 +33,9 @@ class Preprocessing(object):
                 zipper.extractall('./data')
 
     def read_data_(self):
-        self.ihs_data = pd.read_csv('IHS_data.csv')
-        self.harmony_data = pd.read_csv('Harmony_data.csv')
-        self.production_train = pd.read_csv('production_data_train.csv')
+        self.ihs_data = pd.read_csv(os.path.join(os.getcwd(),'data','IHS_data.csv'))
+        self.harmony_data = pd.read_csv(os.path.join(os.getcwd(),'data','Harmony_data.csv'))
+        self.production_train = pd.read_csv(os.path.join(os.getcwd(),'data','production_data_train.csv'))
 
         return self.ihs_data,self.harmony_data,self.production_train
 
